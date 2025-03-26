@@ -1,7 +1,7 @@
 # pluralsight
 
 ## Github Getting started
-in this course, you will learn how to use GitHub successfully.
+In this course, you will learn how to use GitHub successfully.
 
 ### The basics
 
