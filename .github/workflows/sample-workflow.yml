@@ -1,8 +1,8 @@
 name: sample-workflow
-on: push
+on: [push]
 jobs:
   explore-first-github-workflow:
     runs-on: ubuntu-latest
     steps:
-    - run:echo "the job was automatically triggered"
-    - run :echo "the job is running "
+    - run: echo "the job was automatically triggered"
+    - run : echo "the job is running "
