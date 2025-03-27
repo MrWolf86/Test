@@ -1,12 +1,10 @@
 name :sample-workflow
-
 on: [push]
-
 jobs:
   explore-first-github-workflow:
     runs-on: ubuntu-latest
     steps:
     -run:echo "the job was automatically triggered"
-    - run 
+    - run :echo "the job is running "
       - name: Run a one-line script
       run: echo Hello, world!
